@@ -1,0 +1,109 @@
+        caracter p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13
+		
+		    escreva("Pense em um meio de transporte, presente na tabela abaixo: ")
+		    escreva("\n- Trator")
+        escreva("\n- Moto")
+        escreva("\n- Bicicleta")
+        escreva("\n- Trem")
+        escreva("\n- Carro")
+        escreva("\n- Caminhão")
+        escreva("\n- Ônibus")
+        escreva("\n- Paraquedas")
+        escreva("\n- Balão")
+        escreva("\n- Avião")
+        escreva("\n- Helicóptero")
+        escreva("\n- Submarino")
+        escreva("\n- Barco")
+        escreva("\n- Navio")
+        escreva("\n- Lancha")
+        
+        escreva("\nÉ terrestre? s/n")
+        leia(p1)
+        
+        se (p1 == 's'){
+            escreva("Cabe apenas uma pessoa? s/n")
+            leia(p2)
+            se (p2 == 's'){
+                escreva("Tem motor? s/n")
+                leia(p3)
+                se (p3 == 's'){
+                    escreva("É uma moto!!!")
+                }
+                senao{
+                    escreva("É uma bicicleta!!!")
+                }
+            }
+            senao{
+                escreva("É maior que um carro? s/n")
+                leia(p4)
+                se (p4 == 's'){
+                    escreva("Leva só pessoas? s/n")
+                    leia(p5)
+                    se (p5 == 's'){
+                        escreva("É um ônibus!!!")
+                    }
+                    senao{
+                        escreva("Transporta muitas coisas por um longo cominho? s/n")
+                        leia(p6)
+                        se (p6 == 's'){
+                            escreva("É um Caminhão!!!")
+                        }
+                        senao{ 
+                            escreva("É um Trator!!!")
+                        }
+                    }
+                }
+            }
+        }
+        senao{
+            escreva("É aquático? s/n")
+            leia(p7)
+            se (p7 == 's'){
+                escreva("Fica submerso? s/n")
+                leia(p8)
+                se (p8 == 's'){
+                    escreva("É um Submarino!!!")
+                }
+                senao{
+                    escreva("É o maior transporte maritimo? s/n")
+                    leia(p9)
+                    se (p9 == 's'){
+                        escreva("É um Navio!!!")
+                    }
+                    senao{
+                        escreva("É um barco? s/n")
+                        leia(p10)
+                        se (p10 == 's'){
+                            escreva("É um Barco!!!")
+                        }
+                        senao{
+                            escreva("É uma Lancha!!!")
+                        }
+                    }
+                }
+            }
+            senao{
+                escreva("Tem motor? s/n")
+                leia(p11)
+                se (p11 == 's'){
+                    escreva("Leva muitas pessoas? s/n")
+                    leia(p12)
+                    se (p12 == 's'){
+                        escreva("É um Avião!!!")
+                    }
+                    senao{
+                        escreva("É um Helicóptero")
+                    }
+                }
+                senao{
+                    escreva("Serve para salta? s/n")
+                    leia(p13)
+                    se (p13 == 's'){
+                        escreva("É um Paraquedas!!!")
+                    }
+                    senao{
+                        escreva("É um Balão!!!")
+                    }
+                }
+            }
+        }
